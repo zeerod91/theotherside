@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Other Side of The Algonquin</title>
+  <style>
+    /* Brand Colours */
+    :root {
+      --bg-color: #0B496A;       /* Dark Blue */
+      --accent-color: #DDAA43;   /* Gold */
+      --text-color: #EEECE4;     /* Off-White */
+      --section-bg: rgba(0, 0, 0, 0.85); /* Opaque dark background for content sections */
+    }
+
+    /* Global Reset */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Brandon Grotesque', sans-serif;
+      /* Use the chosen faded golf course as the overall background */
+      background: url('https://i.imgur.com/Jjy4b8S.jpg') no-repeat center center fixed, var(--bg-color);
+      background-size: cover;
+      background-blend-mode: multiply;
+      color: var(--text-color);
+      line-height: 1.6;
+    }
+    a {
+      color: var(--accent-color);
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+    a:hover {
+      color: var(--text-color);
+    }
+    .container {
+      width: 90%;
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    /* Header with Blue Overlay & Full Resort Logo */
+    header {
+      position: relative;
+      text-align: center;
+      padding: 80px 20px;
+      background: linear-gradient(rgba(11,73,106,0.7), rgba(11,73,106,0.7)),
+                  url('https://i.imgur.com/hWR66y8.jpg') no-repeat center center/cover;
+    }
+    header img.resort-logo {
+      max-width: 400px; /* Enlarged for impact */
+      margin-bottom: 20px;
+    }
+    header h1 {
+      font-weight: 900;
+      font-size: 3em;
+      margin-bottom: 10px;
+      text-shadow: 2px 2px 6px rgba(0,0,0,0.8);
+    }
+    header p.tagline {
+      font-size: 1.3em;
+      margin-top: 10px;
+    }
+
+    /* Navigation */
+    nav {
+      background: var(--bg-color);
+      padding: 15px 0;
+      text-align: center;
+      border-bottom: 2px solid var(--accent-color);
+    }
+    nav a {
+      margin: 0 15px;
+      font-weight: 500;
+    }
+
+    /* Section Styles */
+    section {
+      background-color: var(--section-bg);
+      margin: 40px 0;
+      padding: 30px;
+      border-radius: 8px;
+    }
+    section h2 {
+      font-weight: 700;
+      font-size: 1.8em;
+      border-bottom: 2px solid var(--accent-color);
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+    }
+    .subsection {
+      margin-top: 20px;
+      padding-left: 15px;
+      border-left: 3px solid var(--accent-color);
+    }
+
+    /* Lantern Watermark in "The Mark" Section */
+    .lantern-watermark {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      width: 100px;
+      opacity: 0.2;
+      transform: rotate(-15deg);
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 20px 0;
+      border-top: 2px solid var(--accent-color);
+      font-size: 0.9em;
+    }
+    footer img.logo-footer {
+      max-width: 150px;
+      margin-top: 10px;
+    }
+
+    /* Responsive Adjustments */
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2em;
+      }
+      nav a {
+        margin: 0 10px;
+        font-size: 0.9em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <!-- Full Resort Logo with white writing -->
+    <img class="resort-logo" src="https://i.postimg.cc/j5GD7WNJ/2024-Algonquin-Logo-White.png" alt="Algonquin Resort Full Logo">
+    <h1>The Other Side of The Algonquin</h1>
+    <p class="tagline">Exactly like nothing else</p>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="#history">History</a>
+    <a href="#the-mark">The Mark</a>
+    <a href="#ralph">Ralph</a>
+    <a href="#evelyn">Evelyn</a>
+    <a href="#benjamin">Benjamin</a>
+    <a href="#frederick">Frederick Steven</a>
+    <a href="#miroen">Miroen</a>
+    <a href="#ambassadors">Ambassadors</a>
+  </nav>
+
+  <div class="container">
+    <!-- History/Welcome Section -->
+    <section id="history">
+      <h2>Welcome to the Algonquin Resort</h2>
+      <p>The Original Resort was built in 1889 by the St. Andrews Land Company and later purchased by CP Rail – making us the only CP hotel not built or designed by CP Rail. In 1914, the original Algonquin burned down and was rebuilt in only 10 months, ready for the 1915 season.</p>
+      <p>In 1971, the Province of New Brunswick took over ownership, though the hotel continued under the Fairmont (formerly CP) banner. In 2012, Southwest Properties acquired the resort, closing it for two years to undergo major renovations and winterisation. The hotel reopened in 2014 as the first Autograph Collection Hotel in Canada in partnership with Marriott.</p>
+      <p>In 2023, InnVest Properties became our new owners, promising grand changes while respecting our eternal guests. Through it all, we remain proudly Canadian and a beacon of hospitality – with staff and guests who simply can’t bear to leave.</p>
+    </section>
+
+    <!-- The Mark & Paranormal Ambassador Program -->
+    <section id="the-mark">
+      <!-- Lantern watermark using the updated image (transparent background) -->
+      <img class="lantern-watermark" src="https://i.postimg.cc/xCkk8Gk2/The-Mark-Logo-transparent-bg.png" alt="Lantern Mark">
+      <h2>The Mark &amp; Paranormal Ambassador Program</h2>
+      <p>This is our Autograph Mark – the element that sets us apart and makes your stay truly one-of-a-kind. The lantern, chosen for its historical significance and as a symbol of guidance, embodies our promise: "Exactly like nothing else."</p>
+      <div class="subsection">
+        <p>Every department contributes a special touch – from ghost tours led by our bell team and check-in handouts featuring a lantern watermark, to uniquely themed cocktails and menus. Our Paranormal Ambassadors bring these stories to life, guiding guests on an unforgettable journey into the other side.</p>
+      </div>
+    </section>
+
+    <!-- Ghost Characters -->
+    <section id="ralph">
+      <h2>Ralph – The Piano Playing Bellman</h2>
+      <p>Ralph returned early in 1914 to help reopen the resort after a long winter. With loose shingles to replace, feather beds to fluff, windows to wash, and wood surfaces to polish, the work was plenty.</p>
+      <p>When disaster struck and the roof caught fire, the building burned. In the rush to escape, Ralph couldn’t bear to leave his beloved piano behind. He dragged it to safety – the sole relic from the original Algonquin to survive the blaze.</p>
+      <div class="subsection">
+        <p><em>Ralph’s Apparition:</em> Often found by our historic piano outside the Right Whale Pub, Ralph waits patiently for Florence – his favourite waitress and singing companion – to return with the keys that will unlock the piano. His tales of heroism (and missing eyebrows) grow with each retelling.</p>
+      </div>
+    </section>
+
+    <section id="evelyn">
+      <h2>Evelyn – The Crying Bride</h2>
+      <p>Evelyn was set to marry a Merchant Marine in a grand ceremony at the Algonquin. The plans were in place and decorations hung – but the groom never arrived.</p>
+      <p>After hours of waiting with no word, heartbreak took over. It was assumed she had cried herself to sleep, yet the morning revealed a darker truth. Newspapers reported she “died of a broken heart,” sparing her family the stigma of suicide.</p>
+      <div class="subsection">
+        <p><em>Evelyn’s Apparition:</em> Her sorrowful cries can still be heard during weddings. While some guests experience a calming serenity in her presence, others note the lumpy mattresses and poor heating – perhaps a sign she never forgave her absent groom.</p>
+      </div>
+    </section>
+
+    <section id="benjamin">
+      <h2>Benjamin – The Little Boy</h2>
+      <p>Benjamin spent an entire summer at the Algonquin, a lively child always accompanied by his favourite red ball. His exuberance sometimes caused disturbances as he banged the ball off walls and raced through hallways.</p>
+      <p>One day, while playing alone on an upper floor, he threw his ball too hard. It bounced high above his head, and in a moment of distraction, he fell through an open window – marking the end of his earthly presence.</p>
+      <div class="subsection">
+        <p><em>Benjamin’s Apparition:</em> Even in the dead of winter, whispers of a child's laughter and footsteps remind us of his restless spirit.</p>
+      </div>
+    </section>
+
+    <section id="frederick">
+      <h2>Frederick Steven – The Night Watchman</h2>
+      <p>Frederick, the resort’s first night watchman, worked for the St. Andrews Land Company and Canadian Pacific Rail. He ensured everyone evacuated safely during the fire and patrolled the rebuilt hotel for years – even during the off-season.</p>
+      <p>A few weeks before retirement, he passed away peacefully in his sleep, possibly due to a lingering cough since the fire. Yet his presence endures in the quiet corridors.</p>
+      <div class="subsection">
+        <p><em>Frederick Steven’s Apparition:</em> His heavy footfalls and the jingle of his key ring are still heard in stairwells, hallways, and tunnels – a testament to his unwavering dedication.</p>
+      </div>
+    </section>
+
+    <section id="miroen">
+      <h2>Miroen – The Elevator Bellman</h2>
+      <p>Miroen was known for his steadfast dedication, operating our historic elevator and serving as a lift operator. Although official records state no one perished in the fire, local rumours suggest otherwise. When the hotel reopened in 1915, Miroen never returned – leaving behind an enduring mystery.</p>
+      <div class="subsection">
+        <p><em>Miroen’s Apparition:</em> His punctuality at dawn and late departures echo through the halls, a quiet reminder of his lasting presence.</p>
+      </div>
+    </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 The Algonquin Resort. All rights reserved.</p>
+    <!-- Using the updated lantern mark as footer image -->
+    <img class="logo-footer" src="https://i.postimg.cc/xCkk8Gk2/The-Mark-Logo-transparent-bg.png" alt="Lantern Mark">
+  </footer>
+</body>
+</html>
+
+
